@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Hotel | Pet Grooming</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { margin: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #fdfdfd; color: #333; line-height: 1.6; }
+        .hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; }
+        .container { max-width: 800px; margin: 50px auto; padding: 20px; text-align: center; }
+        .btn { background: #333; color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; }
+        .services { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 40px; }
+        .card { padding: 20px; border: 1px solid #eee; border-radius: 15px; width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .service-img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; margin-bottom: 15px; }
+
+        /* Contact Styles */
+        .contact-group { display: flex; flex-direction: column; align-items: center; gap: 15px; }
+        
+        /* Boxed items */
+        .boxed { padding: 10px 20px; border: 1px solid #ddd; border-radius: 10px; display: inline-flex; align-items: center; gap: 10px; }
+        
+        /* Tighter icons */
+        .contact-link { display: inline-flex; align-items: center; text-decoration: none; color: #333; font-weight: 500; }
+        .contact-link i { margin-right: 4px; }
+        
+        /* Social Colors */
+        .fa-whatsapp { color: #25D366; }
+        .fa-instagram { color: #E1306C; }
+        .fa-envelope { color: #DB4437; }
+        
+        .location-link { margin-top: 20px; font-weight: bold; color: #4285F4; text-decoration: none; display: inline-flex; align-items: center; }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Pet Hotel</h1>
+        <p>Professional Grooming & Concierge Services</p>
+        <br>
+        <a href="https://wa.me/96176062737" class="btn"><i class="fab fa-whatsapp"></i> Book via WhatsApp</a>
+    </div>
+
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80" alt="Dog" class="service-img">
+                <h3>Shower</h3>
+                <p><strong>$20 Only</strong></p>
+            </div>
+            <div class="card">
+                <h3>Transport</h3>
+                <p>We pick up your dog and bring them back home.</p>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 50px;">Contact Us</h2>
+        <div class="contact-group">
+            <div class="boxed">
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/96176062737" class="contact-link">76 062 737</a>
+                <span>&</span>
+                <a href="https://wa.me/96103062737" class="contact-link">03 062 737</a>
+            </div>
+
+            <div class="boxed">
+                <a href="https://www.instagram.com/pet.hotel.lb" target="_blank" class="contact-link"><i class="fab fa-instagram"></i>@pet.hotel.lb</a>
+            </div>
+            <div class="boxed">
+                <a href="mailto:pethotel.lb@gmail.com" class="contact-link"><i class="fas fa-envelope"></i>pethotel.lb@gmail.com</a>
+            </div>
+            
+            <a href="https://maps.app.goo.gl/rLR597FKwkyFPMHQ6" target="_blank" class="location-link"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Visit us in Kfarchima</a>
+        </div>
+    </div>
+
+</body>
+</html>
